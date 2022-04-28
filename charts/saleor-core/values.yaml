@@ -247,8 +247,8 @@ staticUrl: /static/
 mediaUrl: /media/
 enableSilk: false
 # If deploying demo only, use US and USD.
-defaultCountry: US
-defaultCurrency: USD
+defaultCountry: UK
+defaultCurrency: GBP
 googleAnalyticsTrackingId:
 maxCheckoutLineQuantity: 50
 requireNewCustomerAccountConfirmation: true
