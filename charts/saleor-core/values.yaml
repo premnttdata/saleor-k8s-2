@@ -373,11 +373,13 @@ externalServices:
       queryStringAuth: false
       defaultAcl: "public-read"
       endpointUrl:
-      region: "eu-west-1"
-      mediaBucketName:
-      staticBucketName:
-      mediaCustomDomain:
-      staticCustomDomain:
+      region: "eu-west-2"
+      mediaBucketName: nttdatauk-dea-saleor-images-staging
+      staticBucketName: nttdatauk-dea-saleor-images-staging
+      #mediaCustomDomain: 
+      #staticCustomDomain:
+
+
 
   # To 'fetch taxes' for various countries to the dashboard
   # To take effect, requires that `plugins.enabled` = `true`

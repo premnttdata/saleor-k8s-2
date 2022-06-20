@@ -105,7 +105,7 @@ saleor-core:
 #          - "{{ core_hostname }}"
 
   ## Configuration Settings
-  mediaUrl: https://nttdatauk-dea-saleor-images-staging.s3.eu-west-2.amazonaws.com/eu-west-2/
+  mediaUrl: https://nttdatauk-dea-saleor-images-staging.s3.eu-west-2.amazonaws.com/
   graphql:
     playgroundEnabled: true
   enableDjangoDebugToolbar: false
@@ -256,7 +256,7 @@ saleor-dashboard:
 #        hosts:
 #          - "{{ dashboard_hostname }}"
   dashUrl: "https://saleor-k8s-staging-saleor-dashboard.hack.cloudnative.nttdatauk.cloud/dashboard/"
-  staticUrl: "https://nttdatauk-dea-saleor-images-staging.s3.eu-west-2.amazonaws.com/eu-west-2/"
+  staticUrl: "https://saleor-k8s-staging-saleor-dashboard.hack.cloudnative.nttdatauk.cloud/dashboard/"
   apiUrl: "https://saleor-k8s-staging-saleor-core-api.hack.cloudnative.nttdatauk.cloud/graphql/"
   apiMountUri: "/dashboard/"
 
