@@ -376,8 +376,8 @@ externalServices:
       region: "eu-west-2"
       mediaBucketName: nttdatauk-dea-saleor-images-staging
       staticBucketName: nttdatauk-dea-saleor-images-staging
-      #mediaCustomDomain: 
-      #staticCustomDomain:
+      mediaCustomDomain: nttdatauk-dea-saleor-images-staging.s3.eu-west-2.amazonaws.com
+      staticCustomDomain: nttdatauk-dea-saleor-images-staging.s3.eu-west-2.amazonaws.com
 
 
 
