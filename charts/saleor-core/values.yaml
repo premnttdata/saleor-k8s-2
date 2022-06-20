@@ -362,9 +362,9 @@ externalServices:
 
   # If cloudstorage is enabled, static and media assets will be served from object storage
   cloudStorage:
-    enabled: true
+    enabled: false
     s3:
-      enabled: true
+      enabled: false
       # keyId and keySecret should be set in the secrets file.
       # Leave empty here in `values.yaml` for security reasons
       keyId:
